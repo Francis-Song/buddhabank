@@ -1,7 +1,7 @@
 # Buddha Bank
 
 Buddha Bank is a decentralized app on Ropsten Testnet
-https://francis-song.github.io/pepeswap
+https://francis-song.github.io/buddhabank
 
 ## Contracts
 
