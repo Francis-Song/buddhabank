@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Francis-Song/buddhabank/static/css/main.06cc7431.chunk.css",
-    "main.js": "/Francis-Song/buddhabank/static/js/main.b12b732b.chunk.js",
-    "main.js.map": "/Francis-Song/buddhabank/static/js/main.b12b732b.chunk.js.map",
-    "runtime-main.js": "/Francis-Song/buddhabank/static/js/runtime-main.d5467a3f.js",
-    "runtime-main.js.map": "/Francis-Song/buddhabank/static/js/runtime-main.d5467a3f.js.map",
-    "static/js/2.91c27ed4.chunk.js": "/Francis-Song/buddhabank/static/js/2.91c27ed4.chunk.js",
-    "static/js/2.91c27ed4.chunk.js.map": "/Francis-Song/buddhabank/static/js/2.91c27ed4.chunk.js.map",
-    "static/js/3.3a121d19.chunk.js": "/Francis-Song/buddhabank/static/js/3.3a121d19.chunk.js",
-    "static/js/3.3a121d19.chunk.js.map": "/Francis-Song/buddhabank/static/js/3.3a121d19.chunk.js.map",
-    "index.html": "/Francis-Song/buddhabank/index.html",
-    "static/css/main.06cc7431.chunk.css.map": "/Francis-Song/buddhabank/static/css/main.06cc7431.chunk.css.map",
-    "static/js/2.91c27ed4.chunk.js.LICENSE.txt": "/Francis-Song/buddhabank/static/js/2.91c27ed4.chunk.js.LICENSE.txt",
-    "static/media/logo.78481860.png": "/Francis-Song/buddhabank/static/media/logo.78481860.png"
+    "main.css": "/buddhabank/static/css/main.06cc7431.chunk.css",
+    "main.js": "/buddhabank/static/js/main.b12b732b.chunk.js",
+    "main.js.map": "/buddhabank/static/js/main.b12b732b.chunk.js.map",
+    "runtime-main.js": "/buddhabank/static/js/runtime-main.43bdb3b0.js",
+    "runtime-main.js.map": "/buddhabank/static/js/runtime-main.43bdb3b0.js.map",
+    "static/js/2.7aaaeefc.chunk.js": "/buddhabank/static/js/2.7aaaeefc.chunk.js",
+    "static/js/2.7aaaeefc.chunk.js.map": "/buddhabank/static/js/2.7aaaeefc.chunk.js.map",
+    "static/js/3.3a121d19.chunk.js": "/buddhabank/static/js/3.3a121d19.chunk.js",
+    "static/js/3.3a121d19.chunk.js.map": "/buddhabank/static/js/3.3a121d19.chunk.js.map",
+    "index.html": "/buddhabank/index.html",
+    "static/css/main.06cc7431.chunk.css.map": "/buddhabank/static/css/main.06cc7431.chunk.css.map",
+    "static/js/2.7aaaeefc.chunk.js.LICENSE.txt": "/buddhabank/static/js/2.7aaaeefc.chunk.js.LICENSE.txt",
+    "static/media/logo.78481860.png": "/buddhabank/static/media/logo.78481860.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5467a3f.js",
-    "static/js/2.91c27ed4.chunk.js",
+    "static/js/runtime-main.43bdb3b0.js",
+    "static/js/2.7aaaeefc.chunk.js",
     "static/css/main.06cc7431.chunk.css",
     "static/js/main.b12b732b.chunk.js"
   ]
