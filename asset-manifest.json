@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/buddhabank/static/css/main.e1afb9ac.chunk.css",
-    "main.js": "/buddhabank/static/js/main.369fbda7.chunk.js",
-    "main.js.map": "/buddhabank/static/js/main.369fbda7.chunk.js.map",
+    "main.css": "/buddhabank/static/css/main.34b4eb36.chunk.css",
+    "main.js": "/buddhabank/static/js/main.137ef1c3.chunk.js",
+    "main.js.map": "/buddhabank/static/js/main.137ef1c3.chunk.js.map",
     "runtime-main.js": "/buddhabank/static/js/runtime-main.497f83c3.js",
     "runtime-main.js.map": "/buddhabank/static/js/runtime-main.497f83c3.js.map",
     "static/css/2.ef9168ec.chunk.css": "/buddhabank/static/css/2.ef9168ec.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.3fecbe25.chunk.js.map": "/buddhabank/static/js/3.3fecbe25.chunk.js.map",
     "index.html": "/buddhabank/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/buddhabank/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.e1afb9ac.chunk.css.map": "/buddhabank/static/css/main.e1afb9ac.chunk.css.map",
+    "static/css/main.34b4eb36.chunk.css.map": "/buddhabank/static/css/main.34b4eb36.chunk.css.map",
     "static/js/2.1d4918c4.chunk.js.LICENSE.txt": "/buddhabank/static/js/2.1d4918c4.chunk.js.LICENSE.txt",
     "static/media/logo.78481860.png": "/buddhabank/static/media/logo.78481860.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.497f83c3.js",
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.1d4918c4.chunk.js",
-    "static/css/main.e1afb9ac.chunk.css",
-    "static/js/main.369fbda7.chunk.js"
+    "static/css/main.34b4eb36.chunk.css",
+    "static/js/main.137ef1c3.chunk.js"
   ]
 }
