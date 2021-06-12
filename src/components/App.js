@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Navbar} from "react-bootstrap";
+import {Navbar, Tabs, Tab} from "react-bootstrap";
 import detectEthereumProvider from '@metamask/detect-provider';
 import Web3 from "web3"
 
@@ -73,22 +73,35 @@ class App extends Component {
   render() {
     return (
       <div>
-   <Navbar >
+   <Navbar style={{backgroundColor: "#FFEDB1"}}>
+   <img
+        src={logo}
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt="Buddha Bank logo"
+      />
       Signed in as: {this.state.account}
   </Navbar>
+      <br></br>
       <div className="App">
         <header className="App-header">
-          <h2>Buddha Bank</h2>
-          <h4>Deposit Ether and Earn BuddhaToken (10% APY)</h4>
+          <h3>Buddha Bank</h3>
+          <h5>Deposit Ether and Earn BuddhaToken (10% APY)</h5>
+          <p>*Ropsten Testnet Required</p>
           <img src={logo} className="App-logo" alt="logo" />
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">
-              Deposit Ether 
+              <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+                <Tab eventKey="deposit" title="Deposit">
+                  <div>
+                  <br></br>
+                    Deposit Ether (min. 0.01)
                     <form onSubmit={(e) => {
                       e.preventDefault()
                       let amount = this.depositAmount.value
-                      amount = amount * 10**18 
+                      amount = amount * 10**18 //convert to wei
                       this.deposit(amount)
                     }}>
                       <div className='form-group mr-sm-2'>
@@ -104,13 +117,19 @@ class App extends Component {
                       </div>
                       <button type='submit' className='btn btn-primary'>DEPOSIT</button>
                     </form>
+
+                  </div>
+                </Tab>
+                <Tab eventKey="withdraw" title="Withdraw">
                   <br></br>
-                    Withdraw Balance
+                    Withdraw Ether + BuddhaToken?
+                    <br></br>
                     <br></br>
                   <div>
                     <button type='submit' className='btn btn-primary' onClick={(e) => this.withdraw(e)}>WITHDRAW</button>
                   </div>
-            
+                </Tab> 
+              </Tabs>
               </div>
             </main>
           </div>
